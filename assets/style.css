@@ -1,7 +1,22 @@
 #recipe-card{
 background-image: url("list-bg.png");
+background-repeat: no-repeat;
+height:300px;
+
 }
 
-# {
-    background-color: red;
+
+
+#form1, #form2{
+
+    font-family: 'Patrick Hand', cursive;
+    position: relative;
+    display: inline-flex;
+    left: 100px;
+    top: 30px;
+    width: 400px;
+    height: 300px;
+    font-size: 25px;
+
+
 }
