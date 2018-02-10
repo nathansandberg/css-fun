@@ -59,15 +59,35 @@ h4 { margin: 0;
 }
 
 #tag{
-    width: 100%;
     position: relative;
-    padding: 25px;
+    width: 100%;
 }
 
 #tag img{
     float: left;
+    padding: 10px;
+    padding-bottom: 20px;
 }
 
 h2{
-    padding: ;
+    margin: 35px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+}
+
+#tag p{
+    margin: 10px 0px 0px 10px;
+    padding : 0px ;
+    font-size: 1.2em;
+    display: inline;
+}
+
+#tag button{
+    position: absolute;
+    right: 10%;
+}
+
+footer{
+    display: block;
+    overflow: hidden;
+    padding-top: 100px;
 }
