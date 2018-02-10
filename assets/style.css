@@ -1,6 +1,4 @@
 
-
-
 #recipe-card{
 position: relative;
 left: 10px;
@@ -80,6 +78,23 @@ h4 { margin: 0;
     font-family: Lato;
     text-transform: uppercase;
     font-size: .7em;
+    color: #8c8c8c;
+}
+
+#title {
+    padding-top: 50px;
+    padding-left: 15px;
+}
+
+#title h2{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+#title h4{
+    font-size: .8em;
+    letter-spacing: 2px;
 }
 
 #twits{
@@ -111,7 +126,7 @@ h4 { margin: 0;
     padding-bottom: 20px;
 }
 
-h2{
+#tag h2{
     margin: 35px 0px 0px 0px;
     padding: 10px 0px 0px 0px;
 }
