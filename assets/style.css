@@ -1,3 +1,45 @@
+
+
+
+#recipe-card{
+position: relative;
+left: 10px;
+margin-top: 50px;
+background-image: url("list-bg.png");
+background-repeat: no-repeat;
+height:300px;
+
+}
+
+#meat p {
+margin-top: 30px;
+width: 950px;
+line-height:1.5em;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: gray;
+
+}
+
+#meat{
+position: relative;
+left: 200px;
+margin-top: 100px;
+width: 1000px;
+}
+
+#form1, #form2{
+
+    font-family: 'Patrick Hand', cursive;
+    position: relative;
+    display: inline-flex;
+    left: 100px;
+    top: 30px;
+    width: 400px;
+    height: 300px;
+    font-size: 25px;
+
+
+}
 body {
     padding: 0;
     margin: 0;

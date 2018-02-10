@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="assets/style.css" type "text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script|Patrick+Hand" rel="stylesheet">
         <title>Chocolate Pizza</title>
         <link href="https://fonts.googleapis.com/css?family=Lato|Patrick+Hand" rel="stylesheet">
         <link href="assets/style.css" type="text/css" rel="stylesheet" />
@@ -30,58 +32,70 @@
                 <h4>Posted on 15 Dec 2013 / Desserts</h4>
                 <button>
                     <img src="assets/print-icon.png" alt="print icon">
-                    <p>print</p>
+                   <div id ="print"> <p>print</p>  </div>
                 </button>
             </section>
-            <section>
+            <section id="meat">
                 <img src="assets/choco-pizza.png" alt="chocolate cake">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all
+                    of the figs and toss in the sucepan with water and lemon juice. Cook over medium heat, stirring frequently, until 
+                    you have a chunkyjammy mixture. Add salt with one or two stirs, set aside and let cool completely. 
                 </p>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely
+                    dissolved adn the milk is just barely lukewarm. Whisk the egg yolks. Set mixture in the fridge and wait 
+                    until the fig mixture is cooled. 
                 </p>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer
+                    instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and 
+                    the nuts. Continue to process for +/- 10 minutes.  Pour semi-frozen mixture into a pyrex dish or glass 
+                    tupperware. Freeze for at least two hours before serving. 
                 </p>
-                <aside>
+                <aside id="recipe-card" >
+                    <div id="form1">
                     <form>
                         <input type="checkbox" name="ingredients" value="milk" id="milk">
-                        <label for="milk">1 1/2 cups milk</label>
+                        <label for="milk">1 1/2 cups milk</label><br>
 
                         <input type="checkbox" name="ingredients" value="mascarpone" id="mascarpone">
-                        <label for="mascarpone">1/2 cup marscarpone</label>
+                        <label for="mascarpone">1/2 cup marscarpone</label><br>
 
                         <input type="checkbox" name="ingredients" value="salt" id="salt">
-                        <label for="salt">1/2 tsp pink salt</label>
+                        <label for="salt">1/2 tsp pink salt</label><br>
                         
                         <input type="checkbox" name="ingredients" value="figs" id="figs">
-                        <label for="figs">1 lb Black Mission Figs</label>
+                        <label for="figs">1 lb Black Mission Figs</label><br>
                         
                         <input type="checkbox" name="ingredients" value="brown-sugar" id="brown-sugar">
-                        <label for="brown-sugar">1/2 cup brown sugar</label>
-
-                        <input type="checkbox" name="ingredients" value="water" id="water">
-                        <label for="water">2-4 tbsp water</label>
-
+                        <label for="brown-sugar">1/2 cup brown sugar</label><br>
+                   
+                         <input type="checkbox" name="ingredients" value="water" id="water">
+                        <label for="water">2-4 tbsp water</label><br>
+                    </form>
+                    </div>
+                    <div id="form2">
+                    <form>
                         <input type="checkbox" name="ingredients" value="cream" id="cream">
-                        <label for="cream">1 1/2 cups heavy cream</label>
+                        <label for="cream">1 1/2 cups heavy cream</label><br>
 
                         <input type="checkbox" name="ingredients" value="sugar" id="sugar">
-                        <label for="sugar">1/3 granulated sugar</label>
+                        <label for="sugar">1/3 granulated sugar</label><br>
                         
                         <input type="checkbox" name="ingredients" value="yolk" id="yolk">
-                        <label for="yolk">2 egg yolks</label>
+                        <label for="yolk">2 egg yolks</label><br>
 
                         <input type="checkbox" name="ingredients" value="lemon-juice" id="lemon-juice">
-                        <label for="lemon-juice">1 lemon, juiced</label>
+                        <label for="lemon-juice">1 lemon, juiced</label><br>
 
                         <input type="checkbox" name="ingredients" value="butter" id="butter">
-                        <label for="butter">2 tbsp butter</label>
+                        <label for="butter">2 tbsp butter</label><br>
 
                         <input type="checkbox" name="ingredients" value="pecans" id="pecans">
-                        <label for="pecans">1 cup honey roasted pecans, roughly chopped</label>
+                        <label for="pecans">1 cup honey roasted pecans, chopped</label><br>
                     </form>
+                    </div>
                 </aside>
             </section>
             <div class="stripe"></div>
