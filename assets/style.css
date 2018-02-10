@@ -37,6 +37,23 @@ width: 1000px;
 
 
 }
+#print p{
+    color: gray;
+    display: inline;
+    font-family: Lato;
+    text-transform: uppercase;
+}
+
+
+#print button {
+    display: inline-block;
+    position: absolute;
+    right: 10%;
+    top: 32%;
+    background: none;
+    border: none;
+
+}
 body {
     padding: 0;
     margin: 0;
